@@ -70,6 +70,8 @@ body {
 
 .name {
     display: flex;
+    width: 1600px;
+    margin: 0 auto;
 }
 
 .name__header-span {
@@ -112,6 +114,7 @@ body {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    margin: 60px 0px 60px 0px;
 }
 
 .stock__item {
@@ -119,6 +122,7 @@ body {
     height: 260px;
     background-image: url(../img/stock-women.jpg);
     text-align: center;
+    margin-bottom: 30px;
 }
 
 .stock__item--last {
