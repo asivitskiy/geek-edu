@@ -79,9 +79,13 @@ body {
     font-style: normal;
     font-weight: 700;
     line-height: 38px;
-    color: var(--pink-color);
+    color: black;
+    /*color: var(--pink-color);*/
 }
 
+.name__header-span--pinktext {
+    color: var(--pink-color);
+}
 .name__header {
     font-size: 48px;
     font-style: normal;
@@ -164,3 +168,25 @@ body {
     height: 180px;
     background-image: linear-gradient(rgba(33, 22, 22, 0.6),rgba(33, 22, 22, 0.6)), url("../img/th-accessories-cat.png");
 }
+
+.featured {
+    display: flex;
+    padding: 0px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.item-card {
+    margin-bottom: 30px;
+    border: 1px solid black;
+    display: flex;
+    width: 360px;
+    padding: 0px;
+    flex-direction: column;
+    background-color: #F8F8F8;
+}
+
+item-card__cad-logo {
+    
+}
+
